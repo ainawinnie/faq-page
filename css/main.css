@@ -74,14 +74,16 @@ main {
     justify-content: space-between;
 
     margin: 0.5em;
+    margin-left: 0;
 }
 
 .question p {
     font-size: 1.2em;
 }
 
-.question p:hover {
+.question:hover {
     color: var(--softRed);
+    cursor: pointer;
 }
 
 .question-selected {
@@ -98,6 +100,7 @@ main {
     display: none;
 
     margin: 1em;
+    margin-left: 0;
 }
 
 
