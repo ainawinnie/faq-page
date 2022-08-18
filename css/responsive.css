@@ -1,0 +1,68 @@
+@media screen and (max-width: 900px) {
+
+    main {
+        background-color: #FFF;
+        background-image: url('../images/bg-pattern-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: 250px;
+        background-position: 64px 0px;
+    
+        margin:30em 20em;
+        padding: 2em;
+        border-radius: 3em;
+    
+        width: 500px;
+        min-height: 400px;
+        height: 70vh;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .side-img {
+        display: none;
+    }
+
+    .mobile-picture {
+        margin: 0;
+        margin-top: -5em;
+    }
+    .mobile-woman{
+        width: 250px;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .faq {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        width: 100%;
+
+    
+        color: var(--veryDarkDesaturatedBlue);
+    }
+    
+    .faq h1 {
+        font-size: 2em;
+        font-weight: 700;
+        margin: 1em;
+        margin-left: 0;
+        margin-bottom: 1em;
+        padding-top: -10em;
+
+        text-align: center;
+    }
+
+    
+
+    .faq .question p {
+        font-size: 1.3em;
+    }
+
+    
+}
